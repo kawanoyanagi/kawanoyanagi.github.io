@@ -1,0 +1,454 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>第十一届全国大学生GIS技能大赛（下午）解题步骤 | 川柳畔</title><meta name="author" content="河川畔之柳"><meta name="copyright" content="河川畔之柳"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="第十一全国大学生GIS技能大赛步骤 题目、数据见文末  一、为每个居住小区分配常住人口数 新建数据库，命名为“结果数据库”。   新建数据库，命名为“第一步中间数据库”。   打开【空间连接】工具窗口，输入“学区”，连接要素为“居住小区”，结果命名为“各学区小区数”，不需要字段映射。”各学区小区数”的[Join_Count]字段即为在这个学区上的小区总和。    打开“各学区小区数”属性表-【表选">
+<meta property="og:type" content="article">
+<meta property="og:title" content="第十一届全国大学生GIS技能大赛（下午）解题步骤">
+<meta property="og:url" content="http://example.com/2023/11/08/%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%8A%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9FGIS%E6%8A%80%E8%83%BD%E5%A4%A7%E8%B5%9B%EF%BC%88%E4%B8%8B%E5%8D%88%EF%BC%89%E8%A7%A3%E9%A2%98%E6%AD%A5%E9%AA%A4/index.html">
+<meta property="og:site_name" content="川柳畔">
+<meta property="og:description" content="第十一全国大学生GIS技能大赛步骤 题目、数据见文末  一、为每个居住小区分配常住人口数 新建数据库，命名为“结果数据库”。   新建数据库，命名为“第一步中间数据库”。   打开【空间连接】工具窗口，输入“学区”，连接要素为“居住小区”，结果命名为“各学区小区数”，不需要字段映射。”各学区小区数”的[Join_Count]字段即为在这个学区上的小区总和。    打开“各学区小区数”属性表-【表选">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/avatar.png">
+<meta property="article:published_time" content="2023-11-08T13:28:56.000Z">
+<meta property="article:modified_time" content="2023-11-08T13:33:08.237Z">
+<meta property="article:author" content="河川畔之柳">
+<meta property="article:tag" content="GIS国赛">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/avatar.png"><link rel="shortcut icon" href="/img/favicon-32x32-next.png"><link rel="canonical" href="http://example.com/2023/11/08/%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%8A%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9FGIS%E6%8A%80%E8%83%BD%E5%A4%A7%E8%B5%9B%EF%BC%88%E4%B8%8B%E5%8D%88%EF%BC%89%E8%A7%A3%E9%A2%98%E6%AD%A5%E9%AA%A4/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '第十一届全国大学生GIS技能大赛（下午）解题步骤',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-11-08 21:33:08'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/background.css"><meta name="generator" content="Hexo 6.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="川柳畔"><span class="site-name">川柳畔</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">第十一届全国大学生GIS技能大赛（下午）解题步骤</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-11-08T13:28:56.000Z" title="发表于 2023-11-08 21:28:56">2023-11-08</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-11-08T13:33:08.237Z" title="更新于 2023-11-08 21:33:08">2023-11-08</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/GIS%E5%9B%BD%E8%B5%9B/">GIS国赛</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="第十一届全国大学生GIS技能大赛（下午）解题步骤"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="第十一全国大学生GIS技能大赛步骤"><a href="#第十一全国大学生GIS技能大赛步骤" class="headerlink" title="第十一全国大学生GIS技能大赛步骤"></a>第十一全国大学生GIS技能大赛步骤</h1><blockquote>
+<p>题目、数据见文末</p>
+</blockquote>
+<h2 id="一、为每个居住小区分配常住人口数"><a href="#一、为每个居住小区分配常住人口数" class="headerlink" title="一、为每个居住小区分配常住人口数"></a>一、为每个居住小区分配常住人口数</h2><ol>
+<li><p>新建数据库，命名为“结果数据库”。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106215138109.png" alt="image-20231106215138109"></p>
+</li>
+<li><p>新建数据库，命名为“第一步中间数据库”。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106215605570.png" alt="image-20231106215605570"></p>
+</li>
+<li><p>打开【空间连接】工具窗口，输入“学区”，连接要素为“居住小区”，结果命名为“各学区小区数”，不需要字段映射。”各学区小区数”的[Join_Count]字段即为在这个学区上的小区总和。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106220354385.png" alt="image-20231106220354385"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106220512047.png" alt="image-20231106220512047"></p>
+</li>
+<li><p>打开“各学区小区数”属性表-【表选项】-【添加字段】，命名为[平均人口]，类型为短整型。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106221050905.png" alt="image-20231106221050905"></p>
+</li>
+<li><p>打开【计算字段】工具窗口，输入“各学区小区数”，输入字段为[平均人口]，表达式为：[人口] * 10000 &#x2F; [Join_Count]。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106221839848.png" alt="image-20231106221839848"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106221906373.png" alt="image-20231106221906373"></p>
+</li>
+<li><p>打开【空间连接】工具窗口，输入”居住小区“，连接要素为”各学区小区数“，结果命名为”居住小区分析“，字段映射选择[Name]，[平均人口]和[BM]三个字段即可。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106222322851.png" alt="image-20231106222322851"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106222350195.png" alt="image-20231106222350195"></p>
+</li>
+<li><p>打开”居住小区分析“属性表-【表选项】-【添加字段】，命名为[小区人口]，字段类型为短整型。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106222612342.png" alt="image-20231106222612342"></p>
+</li>
+<li><p>打开【计算字段】工具窗口，输入”居住小区分析“，输入字段为”小区人口“，表达式为：[平均人口] 。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106223138180.png" alt="image-20231106223138180"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106222922662.png" alt="image-20231106222922662"></p>
+</li>
+</ol>
+<h2 id="二、创建道路网络"><a href="#二、创建道路网络" class="headerlink" title="二、创建道路网络"></a>二、创建道路网络</h2><ol>
+<li><p>插入新的数据框，命名为”第二步“，同时将默认的第一个数据框重命名为”第一步“。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106223742771.png" alt="image-20231106223742771"></p>
+</li>
+<li><p>新建数据库，命名为”第二步中间数据库“，并将工作空间设置为此路径。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106223929399.png" alt="image-20231106223929399"></p>
+</li>
+<li><p>右击”结果数据库“-【新建】-【要素数据集】，命名为”网络分析“，坐标系选择与图层一致，其余保持默认即可。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106224104992.png" alt="image-20231106224104992"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106224218006.png" alt="image-20231106224218006"></p>
+</li>
+<li><p>打开【要素类至要素类】工具窗口，输入”道路除高架“，结果命名为”road“。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106224547353.png" alt="image-20231106224547353"></p>
+</li>
+</ol>
+<p>​		</p>
+<ol start="6">
+<li><p>右击”网络分析“-【新建】-【网络数据集】，名字为”路网“，不构建转弯模型，不进行高程建模，将长度属性的值都选择为：Shape_Length，不设置行驶方向。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106224845662.png" alt="image-20231106224845662"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106225049966.png" alt="image-20231106225049966"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106225200865.png" alt="image-20231106225200865"></p>
+</li>
+<li><p>打开【空间连接】工具窗口，输入”小学“，连接要素为”学区“，结果命名为”小学所属学区“，字段映射选择[Name]和[名称]字段即可。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106230640621.png" alt="image-20231106230640621"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106230734453.png" alt="image-20231106230734453"></p>
+</li>
+</ol>
+<blockquote>
+<p>接下来就是提取每个学区上的居住小区和小学，并依次进行最近设施分析，需重复9次，这里只以”桂花街道“为例演示一次操作，其余八次操作类似。此步推荐使用arcpy自动化处理，代码在这一步的末尾给出。</p>
+</blockquote>
+<ol start="8">
+<li><p>打开”小学所属学区“属性表-【表选项】-【按属性选择】，查询语句为：[Name] &#x3D; ‘ 桂花街道’，</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106231155514.png" alt="image-20231106231155514"></p>
+</li>
+<li><p>打开【复制要素】工具窗口，输入”小学所属学区“，结果命名为”桂花街道的小学“。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106232953999.png" alt="image-20231106232953999"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106233335370.png" alt="image-20231106233335370"></p>
+</li>
+</ol>
+<blockquote>
+<p>第9步为什么不直接右击小学所属学区导出数据而是选择使用【复制要素】这个工具呢？因为导出数据无法导出到数据库当中（不理解），不便于数据存放的管理（强迫症）。</p>
+</blockquote>
+<ol start="10">
+<li><p>打开”居住小区分析“的属性表-【表选项】-【按属性选择】，查询语句为：[Name] &#x3D; ‘桂花街道’。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106233559610.png" alt="image-20231106233559610"></p>
+</li>
+<li><p>打开【复制要素】工具窗口，输入”居住小区分析“，结果命名为”桂花街道的居住小区“。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106233806314.png" alt="image-20231106233806314"></p>
+</li>
+<li><p>打开网络分析工具条，【Network Analyst】-【新建最近设施点】</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106234340772.png" alt="image-20231106234340772"></p>
+</li>
+<li><p>打开Network Analyst窗口，右击设施点-【加载位置】，加载”桂花街道的小学“，位置分析属性的[Name]属性选择[名称]字段。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231106234842138.png" alt="image-20231106234842138"></p>
+</li>
+<li><p>打开Network Analyst窗口，右击事件点-【加载位置】，加载”桂花街道的居住小区“，位置分析属性的[Name]属性选择[BM]字段。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107000614710.png" alt="image-20231107000614710"></p>
+</li>
+<li><p>打开”最近设施点“的图层属性，【分析设置】中将Oneway取消限制。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107000852050.png" alt="image-20231107000852050"></p>
+</li>
+<li><p>点击【求解】。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107001007705.png" alt="image-20231107001007705"></p>
+</li>
+<li><p>打开【复制要素】工具窗口，输入”路径“，结果命名为”桂花街道的路线“。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107094843940.png" alt="image-20231107094843940"></p>
+</li>
+<li><p>重复10-17操作，得到所有路线。</p>
+</li>
+<li><p>打开【合并】工具窗口，将所有路线输入，结果命名为”步行上学路线“，保存在”结果数据库“中。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107003810279.png" alt="image-20231107003810279"></p>
+</li>
+</ol>
+<p>arcpy自动化处理代码：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 提取每个学区内的居住小区和学校</span></span><br><span class="line"><span class="comment"># 设置工作空间</span></span><br><span class="line">arcpy.env.workspace = <span class="string">r&quot;E:/GIS/temp/第二步中间数据库.mdb&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 获取学区唯一值</span></span><br><span class="line">street = []</span><br><span class="line"><span class="comment"># 使用搜索游标</span></span><br><span class="line">rows = arcpy.da.SearchCursor(<span class="string">&quot;学区&quot;</span>, <span class="string">&quot;Name&quot;</span>)</span><br><span class="line"><span class="keyword">for</span> row <span class="keyword">in</span> rows:</span><br><span class="line">    street.append(row[<span class="number">0</span>].encode(<span class="string">&#x27;utf-8&#x27;</span>))</span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"><span class="keyword">del</span> row</span><br><span class="line"><span class="keyword">del</span> rows</span><br><span class="line"></span><br><span class="line"><span class="comment"># 提取居住小区</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> street:</span><br><span class="line">    file_name = i + <span class="string">&quot;的小区&quot;</span></span><br><span class="line">    expression = <span class="string">&quot;[Name]=&#x27;&#123;&#125;&#x27;&quot;</span>.<span class="built_in">format</span>(i)</span><br><span class="line">    arcpy.arcpy.SelectLayerByAttribute_management(<span class="string">&quot;居住小区分析&quot;</span>, <span class="string">&quot;NEW_SELECTION&quot;</span>, expression)</span><br><span class="line">    arcpy.CopyFeatures_management(<span class="string">&quot;居住小区分析&quot;</span>, file_name)</span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 提取小学</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> street:</span><br><span class="line">    file_name = i + <span class="string">&quot;的小学&quot;</span></span><br><span class="line">    expression = <span class="string">&quot;[Name]=&#x27;&#123;&#125;&#x27;&quot;</span>.<span class="built_in">format</span>(i)</span><br><span class="line">    arcpy.arcpy.SelectLayerByAttribute_management(<span class="string">&quot;小学所属学区&quot;</span>, <span class="string">&quot;NEW_SELECTION&quot;</span>, expression)</span><br><span class="line">    arcpy.CopyFeatures_management(<span class="string">&quot;小学所属学区&quot;</span>, file_name)</span><br><span class="line">    <span class="keyword">pass</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 最近邻分析</span></span><br><span class="line"><span class="comment"># 新建最近设施点图层</span></span><br><span class="line">arcpy.MakeClosestFacilityLayer_na(<span class="string">&quot;路网&quot;</span>, <span class="string">&quot;最近设施&quot;</span>, <span class="string">&quot;长度&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> street:</span><br><span class="line">    <span class="comment"># 添加事件点（小区）</span></span><br><span class="line">    event_name = i + <span class="string">&quot;的小区&quot;</span></span><br><span class="line">    arcpy.AddLocations_na(<span class="string">&quot;最近设施&quot;</span>, <span class="string">&quot;事件点&quot;</span>, event_name, <span class="string">&quot;Name BM #&quot;</span>, append=<span class="string">&quot;CLEAR&quot;</span>)</span><br><span class="line">    <span class="comment"># 添加设施点（学校）</span></span><br><span class="line">    fac_name = i + <span class="string">&quot;的小学&quot;</span></span><br><span class="line">    arcpy.AddLocations_na(<span class="string">&quot;最近设施&quot;</span>, <span class="string">&quot;设施点&quot;</span>, fac_name, <span class="string">&quot;Name 名称 #&quot;</span>, append=<span class="string">&quot;CLEAR&quot;</span>)</span><br><span class="line">    <span class="comment"># 求解</span></span><br><span class="line">    arcpy.Solve_na(<span class="string">&quot;最近设施&quot;</span>)</span><br><span class="line">    <span class="comment"># 导出路径</span></span><br><span class="line">    file_name = i + <span class="string">&quot;路线&quot;</span></span><br><span class="line">    arcpy.CopyFeatures_management(<span class="string">r&quot;最近设施\路径&quot;</span>, file_name)sa</span><br></pre></td></tr></table></figure>
+
+<h2 id="三、步行上学可达性评价"><a href="#三、步行上学可达性评价" class="headerlink" title="三、步行上学可达性评价"></a>三、步行上学可达性评价</h2><ol>
+<li><p>新建数据库，命名为”第三步中间数据库“。并将工作空间设置为此路径。</p>
+</li>
+<li><p>打开【复制要素】工具窗口，输入“步行上学路线”，结果命名为“上学路线”</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107133759800.png" alt="image-20231107133759800"></p>
+</li>
+<li><p>打开“上学路线”属性表-【表选项】-【添加字段】，添加[起点]字段，类型为文本；添加[终点]字段，类型为文本。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107134028098.png" alt="image-20231107134028098"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107134058985.png" alt="image-20231107134058985"></p>
+</li>
+<li><p>打开“上学路线”属性表-右击[起点]字段-【字段计算器】，解析程序选择python，计算公式为：!Name![:3]。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107134449965.png" alt="image-20231107134449965"></p>
+</li>
+<li><p>打开“上学路线”属性表-右击[终点]字段-【字段计算器】，解析程序选择python，计算公式为：!Name![6：]。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107134547120.png" alt="image-20231107134547120"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107134633555.png" alt="image-20231107134633555"></p>
+</li>
+<li><p>打开【复制要素】工具窗口，输入“小学”，结果命名为“小学坐标”；输入“居住小区”，结果命名为“居住小区坐标”。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107135056329.png" alt="image-20231107135056329"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107135208779.png" alt="image-20231107135208779"></p>
+</li>
+<li><p>打开【添加XY坐标】，输入“居住小区坐标”：输入“小学坐标”。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107135347039.png" alt="image-20231107135347039"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107135431874.png" alt="image-20231107135431874"></p>
+</li>
+<li><p>打开【更改字段】工具窗口，输入“居住小区坐标”，输入[POINT_X]字段，新名称为[居住小区X]；输入“居住小区坐标”，输入[POINT_Y]字段，新名称为[居住小区Y]；输入“小学坐标”，输入[POINT_X]字段，新名称为[小学X]；输入“小学坐标”，输入[POINT_Y]字段，新名称为[小学Y]；</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107135912063.png" alt="image-20231107135912063"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107140157186.png" alt="image-20231107140157186"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107140221434.png" alt="image-20231107140221434"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107140251913.png" alt="image-20231107140251913"></p>
+</li>
+<li><p>打开【连接字段】工具窗口，输入“上学路线”，输入连接字段为[起点]，连接表为“居住小区坐标”，输出连接字段为[BM]，连接字段选择[居住小区X]和[居住小区Y]。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107140605683.png" alt="image-20231107140605683"></p>
+</li>
+<li><p>打开【连接字段】工具窗口，输入“上学路线”，输入连接字段为[终点]，连接表为“小学坐标”，输出连接字段为[名称]，连接字段选择[小学X]和[小学Y]。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107140720376.png" alt="image-20231107140720376"></p>
+</li>
+<li><p>打开【XY转线】工具窗口，输入“上学路线”，结果命名为“上学路线直线”，起点X字段选择[居住小区X]，起点Y字段选择[居住小区Y]，终点X字段选择[小学X]，终点Y字段选择[小学Y]，ID选择[Total_长度]。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107141628035.png" alt="image-20231107141628035"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107141129506.png" alt="image-20231107141129506"></p>
+</li>
+<li><p>打开“上学路线直线”图层属性-【符号系统】-【数量】，值选择为[Total_长度]，分类选择为：3，中断值设置为：1000、2000、4700。1千米以内的符号颜色设置为“棕榈绿”，1千米-2千米的符号颜色设置为“太阳黄”，2千米以上的符号颜色设置为“火焰红”，并设置相应标注。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107142347476.png" alt="image-20231107142347476"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107141902335.png" alt="image-20231107141902335"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107142408955.png" alt="image-20231107142408955"></p>
+</li>
+<li><p>打开【复制要素】工具窗口，输入“学区”，结果命名为“学区分析”，保存到“结果数据库中”。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107145808010.png" alt="image-20231107145808010"></p>
+</li>
+<li><p>打开“学区分析”属性表-【表选项】-【添加字段】，添加[高可达性覆盖率]字段，类型为双精度，默认值为0；添加[中可达性覆盖率]字段，类型为双精度，默认值为0；添加[低可达性覆盖率]字段，类型为双精度，默认值为0。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107150113244.png" alt="image-20231107150113244"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107150242563.png" alt="image-20231107150242563"></p>
+</li>
+<li><p>打开【连接字段】工具窗口，输入“上学路线”，输入连接字段为[起点]，连接表为”居住小区分析“，输出连接字段为[BM]，连接字段选择[Name]和[小区人口]。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107150823526.png" alt="image-20231107150823526"></p>
+</li>
+<li><p>打开”上学路线“属性表-【表选项】-【按属性选择】，查询公式为：Total_长度 &lt;&#x3D; 1000。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107151031735.png" alt="image-20231107151031735"></p>
+</li>
+<li><p>打开”上学路线“属性表-右击[Name_1]-【汇总】，统计信息为[小区人口]的总和，结果命名为”步行1000米以内的人数“。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107151406663.png" alt="image-20231107151406663"></p>
+</li>
+<li><p>打开【连接字段】工具窗口，输入”学区分析“，输入连接字段为[Name]，连接表为”步行1000米以内的人数“，输出连接字段为[Name_1]，连接字段选择[Sum_小区人口]。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107151811217.png" alt="image-20231107151811217"></p>
+</li>
+<li><p>打开”学区分析“属性表-右击[高可达性覆盖率]字段-【字段计算器】，解析程序选择Python，计算公式为：cal( !Sum_小区人口! , !人口! )，计算之后删除[Sum_小区人口]字段。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107153155037.png" alt="image-20231107153155037"></p>
+<p>其中cal函数定义为：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">cal</span>(<span class="params">zpop, pop</span>):</span><br><span class="line">    <span class="keyword">if</span> zpop == <span class="literal">None</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">round</span>(<span class="number">100</span> * zpop / (<span class="number">10000</span> * pop), <span class="number">2</span>)</span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>​			</p>
+<ol start="20">
+<li><p>打开”上学路线“属性表-【表选项】-【按属性选择】，查询公式为：Total_长度 &lt; 2000 AND Total_长度 &gt; 1000。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107153515435.png" alt="image-20231107153515435"></p>
+</li>
+<li><p>打开”上学路线“属性表-右击[Name_1]-【汇总】，统计信息为[小区人口]的总和，结果命名为”步行1000米到2000米内的人数“。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107153844949.png" alt="image-20231107153844949"></p>
+</li>
+<li><p>打开【连接字段】工具窗口，输入”学区分析“，输入连接字段为[Name]，连接表为”步行1000米到2000米内的人数“，输出连接字段为[Name_1]，连接字段选择[Sum_小区人口]。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107153944123.png" alt="image-20231107153944123"></p>
+</li>
+<li><p>打开”学区分析“属性表-右击[中可达性覆盖率]字段-【字段计算器】，解析程序选择Python，计算公式为：cal( !Sum_小区人口! , !人口! )，计算之后删除[Sum_小区人口]字段。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107154110518.png" alt="image-20231107154110518"></p>
+</li>
+<li><p>打开”上学路线“属性表-【表选项】-【按属性选择】，查询公式为：Total_长度 &gt;&#x3D; 2000。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107154455425.png" alt="image-20231107154455425"></p>
+</li>
+<li><p>打开”上学路线“属性表-右击[Name_1]-【汇总】，统计信息为[小区人口]的总和，结果命名为”步行2000米以上的人数“。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107154657904.png" alt="image-20231107154657904"></p>
+</li>
+<li><p>打开【连接字段】工具窗口，输入”学区分析“，输入连接字段为[Name]，连接表为”步行2000米以上的人数“，输出连接字段为[Name_1]，连接字段选择[Sum_小区人口]。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107154753605.png" alt="image-20231107154753605"></p>
+</li>
+<li><p>打开”学区分析“属性表-右击[低可达性覆盖率]字段-【字段计算器】，解析程序选择Python，计算公式为：cal( !Sum_小区人口! , !人口! )，计算之后删除[Sum_小区人口]字段。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107154856418.png" alt="image-20231107154856418"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231107154913777.png" alt="image-20231107154913777"></p>
+</li>
+<li><p>制作高可达性覆盖率专题图略。</p>
+</li>
+</ol>
+<h2 id="四、步行安全性评价"><a href="#四、步行安全性评价" class="headerlink" title="四、步行安全性评价"></a>四、步行安全性评价</h2><ol>
+<li><p>新建数据库，命名为”第四步中间数据库“。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108093048077.png"></p>
+</li>
+<li><p>打开”道路出高架“属性表-【表选项】-【按属性选择】，查询公式为：”fclass” &#x3D; ‘primary’ OR “fclass” &#x3D; ‘primary_link’ OR “fclass” &#x3D; ‘secondary’ OR “fclass” &#x3D; ‘secondary_link’。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108093230502.png" alt="image-20231108093230502"></p>
+</li>
+<li><p>打开【复制要素】工具窗口，输入”道路除高架“，结果命名为”主干道“。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108093342607.png" alt="image-20231108093342607"></p>
+</li>
+<li><p>打开【取消线分割】工具窗口，输入”主干道“，结果命名为”干道“。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108093522540.png" alt="image-20231108093522540"></p>
+</li>
+<li><p>打开【相交】工具窗口，输入”步行上学路线“，输入”干道“，结果命名为”相交点“。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108093658775.png" alt="image-20231108093658775"></p>
+</li>
+<li><p>打开【添加XY坐标】工具窗口，输入”相交点“。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108093801585.png" alt="image-20231108093801585"></p>
+</li>
+<li><p>打开”相交点“属性表-【表选项】-【添加字段】，添加名为[唯一标识]的字段，类型为文本。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108093843789.png" alt="image-20231108093843789"></p>
+</li>
+<li><p>打开”相交点“属性表-右击[唯一字段]-【字段计算器】，计算公式为：!Name! + “-“ + str( !POINT_X! ) + “,” + str( !POINT_Y! )。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108094154306.png" alt="image-20231108094154306"></p>
+</li>
+<li><p>打开【融合】工具窗口，输入”相交点“，融合字段为[唯一标识点]，结果命名为”唯一相交点“。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108094314733.png" alt="image-20231108094314733"></p>
+</li>
+<li><p>打开”唯一相交点“属性表-【表选项】-【添加字段】,添加名为[Name]的字段，类型为文本。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108094651054.png" alt="image-20231108094651054"></p>
+</li>
+<li><p>打开”唯一相交点“属性表-右击[Name]字段-【字段计算器】，计算公式为：!唯一标识!.split(“-“)[0] + “-“ + !唯一标识!.split(“-“)[1]。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108095100722.png" alt="image-20231108095100722"></p>
+</li>
+<li><p>打开【频数】工具窗口，输入”唯一相交点“，频数字段为[Name]，结果命名为”穿越数“。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108095208618.png" alt="image-20231108095208618"></p>
+</li>
+<li><p>打开【复制要素】工具窗口，输入”居住小区“，结果命名为”小区上学穿越数“。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108102400869.png" alt="image-20231108102400869"></p>
+</li>
+<li><p>打开”穿越数“属性表-【表选项】-【添加字段】，添加名为[BM]的字段，类型为文本。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108102857537.png" alt="image-20231108102857537"></p>
+</li>
+<li><p>打开”穿越数“属性表-右击[BM]字段-【字段计算器】，计算公式为：!Name![:3]。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108102933471.png" alt="image-20231108102933471"></p>
+</li>
+<li><p>打开【连接字段】工具窗口，输入”小区上学穿越数“，输入连接字段为[BM]，连接表为”穿越数“，输出连接字段为[BM]，连接字段选择[FRENQUENCY]。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108103051937.png" alt="image-20231108103051937"></p>
+</li>
+<li><p>打开”小区上学穿越数“表，按属性选择出[FRENQUENCY]字段值为空的记录，令其为0。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108103235596.png" alt="image-20231108103235596"></p>
+</li>
+<li><p>打开【连接字段】工具窗口，输入”小区上学穿越数“，输入连接字段为[BM]连，接表为”居住小区分析“，输出连接字段为[BM]，连接字段选择[Name]和[小区人口]。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108103435586.png" alt="image-20231108103435586"></p>
+</li>
+<li><p>打开“小区上学穿越数”属性表-【按属性选择】，查询公式为：[FRENQUENCY] &#x3D; 0。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108103700119.png" alt="image-20231108103700119"></p>
+</li>
+<li><p>打开“小区上学穿越数”属性表-右击[Name]字段-【汇总】，汇总[小区人口]的总和，结果命名为“高安全性表”。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108103744213.png" alt="image-20231108103744213"></p>
+</li>
+<li><p>打开【复制要素】工具窗口，输入“学区”，结果命名为“学区安全性分析”，保存再“结果数据库”中。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108104129620.png" alt="image-20231108104129620"></p>
+</li>
+<li><p>打开“学区安全性分析”属性表-【添加字段】，添加名为[高安全性覆盖率]、[中安全性覆盖率]、[低安全性覆盖率]的字段，类型为双精度。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108104230772.png" alt="image-20231108104230772"></p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108104826255.png" alt="image-20231108104826255"></p>
+</li>
+<li><p>打开【连接字段】工具窗口，输入“学区安全性分析”，输入连接字段为[Name]，连接表为“高安全性”，输出连接字段为[Name]，连接字段选择[Sum_小区人口]。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108104912376.png" alt="image-20231108104912376"></p>
+</li>
+<li><p>打开“学区安全性分析”属性表，右击[高安全性覆盖率]字段，计算公式为：cal( !Sum_小区人口! , !人口! )。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108105037625.png" alt="image-20231108105037625"></p>
+</li>
+<li><p>依次按照计算[高安全性覆盖率]的步骤计算[中安全性覆盖率]和[低安全性覆盖率]的值。</p>
+<p><img src="https://kawanoyanagi.oss-cn-guangzhou.aliyuncs.com/image-20231108105932551.png" alt="image-20231108105932551"></p>
+</li>
+</ol>
+<hr>
+<p>未完待续</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://example.com">河川畔之柳</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2023/11/08/%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%8A%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9FGIS%E6%8A%80%E8%83%BD%E5%A4%A7%E8%B5%9B%EF%BC%88%E4%B8%8B%E5%8D%88%EF%BC%89%E8%A7%A3%E9%A2%98%E6%AD%A5%E9%AA%A4/">http://example.com/2023/11/08/%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%8A%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9FGIS%E6%8A%80%E8%83%BD%E5%A4%A7%E8%B5%9B%EF%BC%88%E4%B8%8B%E5%8D%88%EF%BC%89%E8%A7%A3%E9%A2%98%E6%AD%A5%E9%AA%A4/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">川柳畔</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/GIS%E5%9B%BD%E8%B5%9B/">GIS国赛</a></div><div class="post_share"><div class="social-share" data-image="/img/avatar.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2023/11/08/GeoJSON/" title="GeoJSON"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">GeoJSON</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">河川畔之柳</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E5%8D%81%E4%B8%80%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9FGIS%E6%8A%80%E8%83%BD%E5%A4%A7%E8%B5%9B%E6%AD%A5%E9%AA%A4"><span class="toc-number">1.</span> <span class="toc-text">第十一全国大学生GIS技能大赛步骤</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E4%B8%BA%E6%AF%8F%E4%B8%AA%E5%B1%85%E4%BD%8F%E5%B0%8F%E5%8C%BA%E5%88%86%E9%85%8D%E5%B8%B8%E4%BD%8F%E4%BA%BA%E5%8F%A3%E6%95%B0"><span class="toc-number">1.1.</span> <span class="toc-text">一、为每个居住小区分配常住人口数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%88%9B%E5%BB%BA%E9%81%93%E8%B7%AF%E7%BD%91%E7%BB%9C"><span class="toc-number">1.2.</span> <span class="toc-text">二、创建道路网络</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%AD%A5%E8%A1%8C%E4%B8%8A%E5%AD%A6%E5%8F%AF%E8%BE%BE%E6%80%A7%E8%AF%84%E4%BB%B7"><span class="toc-number">1.3.</span> <span class="toc-text">三、步行上学可达性评价</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%AD%A5%E8%A1%8C%E5%AE%89%E5%85%A8%E6%80%A7%E8%AF%84%E4%BB%B7"><span class="toc-number">1.4.</span> <span class="toc-text">四、步行安全性评价</span></a></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/11/08/%E7%AC%AC%E5%8D%81%E4%B8%80%E5%B1%8A%E5%85%A8%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9FGIS%E6%8A%80%E8%83%BD%E5%A4%A7%E8%B5%9B%EF%BC%88%E4%B8%8B%E5%8D%88%EF%BC%89%E8%A7%A3%E9%A2%98%E6%AD%A5%E9%AA%A4/" title="第十一届全国大学生GIS技能大赛（下午）解题步骤">第十一届全国大学生GIS技能大赛（下午）解题步骤</a><time datetime="2023-11-08T13:28:56.000Z" title="发表于 2023-11-08 21:28:56">2023-11-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/11/08/GeoJSON/" title="GeoJSON">GeoJSON</a><time datetime="2023-11-08T01:24:47.000Z" title="发表于 2023-11-08 09:24:47">2023-11-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/08/04/Mapbox-GL%E6%95%99%E7%A8%8B03%EF%BC%9A%E6%B7%BB%E5%8A%A0%E5%9B%BE%E5%BD%A2%E6%95%B0%E6%8D%AE/" title="Mapbox-GL教程03：添加图形数据">Mapbox-GL教程03：添加图形数据</a><time datetime="2023-08-04T10:28:25.000Z" title="发表于 2023-08-04 18:28:25">2023-08-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/08/03/Mapbox-GL%E6%95%99%E7%A8%8B02%EF%BC%9A%E5%B1%95%E7%A4%BA%E5%9C%B0%E5%9B%BE/" title="Mapbox-GL教程02：展示地图">Mapbox-GL教程02：展示地图</a><time datetime="2023-08-03T15:13:55.000Z" title="发表于 2023-08-03 23:13:55">2023-08-03</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/08/03/Mapbox-GL%E6%95%99%E7%A8%8B01%EF%BC%9A%E4%BB%80%E4%B9%88%E6%98%AFMapbox-GL/" title="Mapbox-GL教程01：什么是Mapbox-GL">Mapbox-GL教程01：什么是Mapbox-GL</a><time datetime="2023-08-03T15:04:02.000Z" title="发表于 2023-08-03 23:04:02">2023-08-03</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By 河川畔之柳</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
